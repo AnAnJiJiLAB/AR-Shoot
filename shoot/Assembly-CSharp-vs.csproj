@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E8716F04-AADD-A664-AA48-6063EE8EF456}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Button2.cs" />
+     <Compile Include="Assets\GameContral3.cs" />
+     <Compile Include="Assets\GameContral6.cs" />
+     <Compile Include="Assets\GameContral7.cs" />
+     <Compile Include="Assets\GameContral8.cs" />
+     <Compile Include="Assets\Gamecontral4.cs" />
+     <Compile Include="Assets\Gamecontral5.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\Playerrrr.cs" />
+     <Compile Include="Assets\S.cs" />
+     <Compile Include="Assets\S2.cs" />
+     <Compile Include="Assets\S3.cs" />
+     <Compile Include="Assets\S4.cs" />
+     <Compile Include="Assets\S5.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\GameContral.cs" />
+     <Compile Include="Assets\Scripts\GameContral2.cs" />
+     <Compile Include="Assets\Scripts\MakeBullet.cs" />
+     <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\Monster2.cs" />
+     <Compile Include="Assets\Scripts\MoveBullet.cs" />
+     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\Wall.cs" />
+     <Compile Include="Assets\Scripts\plus10.cs" />
+     <Compile Include="Assets\Shock.cs" />
+     <Compile Include="Assets\Shock2.cs" />
+     <Compile Include="Assets\Shock3.cs" />
+     <Compile Include="Assets\Shock4.cs" />
+     <Compile Include="Assets\Shock5.cs" />
+     <Compile Include="Assets\Time2.cs" />
+     <Compile Include="Assets\TurretFire.cs" />
+     <Compile Include="Assets\TurretFire2.cs" />
+     <Compile Include="Assets\Turretbullet.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DatabaseLoadBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SmartTerrainTrackerBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoTextureRenderer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Extensions\VectorExtensions.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\UI\GUIHelper.cs" />
+     <Compile Include="Assets\WR_wHiteRabbiT-sTudio\WRFramework\Unity\Util\Logo.cs" />
+     <Compile Include="Assets\Wall2.cs" />
+     <Compile Include="Assets\Wall3.cs" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\You.xml" />
+     <None Include="Assets\Monster\shaders\vertexAnim.shader" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Monster\shaders\bumpSpecmap.shader" />
+     <None Include="Assets\Monster\shaders\metalA.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Turret\Shaders\AlphaTest_Complete.shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Monster\shaders\caveShader.shader" />
+     <None Include="Assets\Monster\shaders\monsterShader.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\WR_wHiteRabbiT-sTudio\Scene\DancingRabbit\ReadMe.txt" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>E:/Unity/SHOOT/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
